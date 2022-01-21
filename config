@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "flutter_test"]
+	url = https://github.com/iggy87/myapp2.git
+	fetch = +refs/heads/*:refs/remotes/flutter_test/*
+[remote "myapp2"]
+	url = git@github.com:iggy87/myapp2.git
+	fetch = +refs/heads/*:refs/remotes/myapp2/*
